@@ -1,0 +1,89 @@
+title	description
+"Task 1: Design"	"
+**Make an initial *design* for your code, including skeleton code**
+
+- [ ] Read the description for [D2B](https://cs.anu.edu.au/courses/comp1110/assessments/deliverables/#D2B)
+- [ ] Create a sketch of your design and save it as a pdf admin/B-design.pdf, commit, and push.  You may use any tool you like to create the sketch (including a photo of a paper sketch).  What is important is that file is a pdf file, and it is named correctly.
+- [ ] Create a design **skeleton**.   This means creating classes, methods, and
+  java doc, **without writing any functional code.**  This skeleton should convey
+  the overall approach you think you will take without actually providing a working
+  solution (which is why you will not write any working code).
+
+"
+"Task 2: isBoardStringWellFormed"	"
+- [ ] Implement the `isBoardStringWellFormed()` method in the `RaceToTheRaft` class.
+
+"
+"Task 3: Constructors"	"
+Begin the implementation of your design by storing appropriate information in instances of your classes. We will provide you with a string representation of game states (see section String Representation below) for testing purposes. Your first implementation step should be to internalise this representation, i.e., to create instances of the classes in your design initialised with the information from the string representation.
+Make sure you represent, at minimum, the following information in your object-oriented state of the game: 
+- [ ] The state of each square in the board
+- [ ] The location of cats on the board
+- [ ] The cards in each of the decks
+- [ ] The cards in the player's hand
+- [ ] The status of each cat: Exhausted or Not exhausted
+- [ ] The fire tiles in the bag
+- [ ] The shape of the fire tiles
+- [ ] The state of each square on a pathway card
+- [ ] The state represented by the Challenge string
+
+"
+"Task 4: Viewer"	"
+Implement the displayState() method in the Viewer class, allowing you to visualise a game state String.
+- [ ] Display the colour/state of each square on the board
+- [ ] Display the cats on the board (we want to see the cat on the board, not a list of locations)
+- [ ] Display the cards in a player's hand
+
+"
+"Task 5: drawFireTile"	"
+- [ ] Implement the drawFireTile() method in the RaceToTheRaft class.
+
+"
+"Task 6: chooseChallenge"	"
+- [ ] Implement the chooseChallenge() method in the RaceToTheRaft class.
+ 
+"
+"Task 7: drawHand"	"
+- [ ] Implement the drawHand() method in the RaceToTheRaft class.
+
+"
+"Task 8: applyPlacement"	"
+- [ ] Implement the `applyPlacement()` method in the `RaceToTheRaft` class.
+
+"
+"Task 9: moveCat"	"
+- [ ] Implement the `moveCat()` method in the `RaceToTheRaft` class.
+
+"
+"Task 10: initialiseChallenge"	"
+- [ ] Implement the `initialiseChallenge()` method in the `RaceToTheRaft` class.
+
+"
+"Task 11: Basic working game"	"
+Implement a basic working game that allows pieces to be moved, without checking validity of placements or movements.
+- [ ] Cards can be rotated and moved. The rules for valid card placements may not have been fully implemented.
+- [ ] Cats can be moved. The rules for valid cat movements may not have been fully implemented.
+- [ ] Cards can be drawn from the decks. The rules surrounding drawing cards may not have been fully implemented.
+- [ ] Fire tiles can be drawn from the bag, rotated and moved. The rules around valid fire tile placements may not have been fully implemented.
+- [ ] The game should be relatively intuitive to play, and should not require knowledge of the backend of the game or the String encoding system.
+
+"
+"Task 12: isPlacementValid"	"
+- [ ] Implement the `isPlacementValid()` method in the `RaceToTheRaft` class.
+
+"
+"Task 13: Fully working game"	"
+A fully working game is one where all the rules have been implemented. As such, players should be able to play
+through their turns, rotate and place cards or fire, move cats and check whether a game is completed.
+The game should be intuitive to play, using a reasonable user interface that any person who has no knowledge of java,
+or the assignment, could pick up and play (for instance, one of your friends or family members). You may wish to
+create an instruction/how-to-play screen to teach people how to use the interface. You can assume they already know
+our modified rules for Race to the Raft. ie: You do not need to write down the game rules.
+
+"
+"Task 14: isCatMovementValid"	"
+- [ ] Implement the `isCatMovementValid()` method in the `RaceToTheRaft` class.
+
+"
+"Task 15: isGameOver"	"
+- [ ] Implement the `isGameOver()` method in the `RaceToTheRaft` class."
