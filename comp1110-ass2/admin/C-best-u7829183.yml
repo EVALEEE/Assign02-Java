@@ -1,0 +1,24 @@
+# IMPORTANT: It is very important that you correctly complete this originality
+# statement.
+#
+# This is your statement of your submitted work being your own.
+# Incorrectly filling out this statement could lead to charges
+# of academic misconduct.
+# 
+# For information on how to fill this out correctly, see
+# https://cs.anu.edu.au/courses/comp1110/help/faq/09-originality/
+#
+
+declaration: >-
+  I submit the work below for assessment as my best work. I declare that this
+  is entirely my own work, with the following documented exceptions:
+
+# I wish to submit the following methods as entirely my own (remove this if
+# you want to just submit classes):
+method:
+   - https://gitlab.cecs.anu.edu.au/u7829183/comp1110-ass2/-/blob/main/src/comp1110/ass2/RaceToTheRaft.java?ref_type=heads#L161-210
+   - Using a lot of OOP and switch case '', to make a complicated piece of code easier to read!
+
+# sign *your* name and uid here
+name: Jialin Li
+uid: u7829183

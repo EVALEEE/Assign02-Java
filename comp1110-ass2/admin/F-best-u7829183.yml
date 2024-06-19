@@ -1,0 +1,31 @@
+# IMPORTANT: It is very important that you correctly complete this originality
+# statement.
+#
+# This is your statement of your submitted work being your own.
+# Incorrectly filling out this statement could lead to charges
+# of academic misconduct.
+# 
+# For information on how to fill this out correctly, see
+# https://cs.anu.edu.au/courses/comp1110/help/faq/09-originality/
+#
+
+declaration: >-
+  I submit the work below for assessment as my best work. I declare that this
+  is entirely my own work, with the following documented exceptions:
+
+
+# I wish to submit the following methods as entirely my own (remove this if
+# you want to just submit classes):
+method:
+   - https://gitlab.cecs.anu.edu.au/u7829183/comp1110-ass2/-/blob/main/src/comp1110/ass2/RaceToTheRaft.java?ref_type=heads#L450-472
+   - 1.The code neatly organizes the game initialization into discrete steps, which improves readability and maintainability.
+   - By separating the handling of different game elements (fire tiles, cat cards, raft cards, and board layout),
+   - the function allows for easier updates and modifications to each component without affecting others.
+   - 2.The method leverages object-oriented principles effectively by utilizing separate classes
+   - (Cat, FireTile, RaftCard, Board, Island) to handle specific parts of the game setup.
+   - This encapsulation of functionality into distinct objects adheres to the Single Responsibility Principle,
+   - making the system easier to understand and manage.
+
+# sign *your* name and uid here
+name: Jialin Li
+uid: u7829183

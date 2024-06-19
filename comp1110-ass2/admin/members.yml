@@ -1,0 +1,11 @@
+# List the membership of this group.  (Remove entries if you have fewer
+# than three members.)
+#
+
+members:
+  - name: Jialin Li
+    uid: u7829183
+  - name: Yunmeng Zhang
+    uid: u7714241
+  - name: Tengyi Zhang
+    uid: u7829536
